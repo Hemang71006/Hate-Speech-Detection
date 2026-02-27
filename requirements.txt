@@ -1,0 +1,14 @@
+scikit-learn>=1.0
+imbalanced-learn>=0.9
+nltk>=3.6
+joblib
+pandas
+numpy
+matplotlib
+seaborn
+
+# ── Transformer pipeline ──
+torch>=2.0
+transformers>=4.35
+datasets>=2.14
+accelerate>=0.24

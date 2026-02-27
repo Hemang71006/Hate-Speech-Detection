@@ -1,0 +1,35 @@
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# HuggingFace and model artifacts
+artifacts/
+transformer_bert/
+*.joblib
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.h5
+
+# Large data / model files (GitHub 100MB limit)
+*.dll
+*.so
+*.dylib
+*.whl
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# VS Code settings
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
